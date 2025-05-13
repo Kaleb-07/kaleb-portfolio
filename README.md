@@ -35,7 +35,7 @@ Welcome to the personal portfolio of **Kaleb** — a passionate **Software Engin
 ## 👨‍💻 Author
 
 **Kaleb**  
-📧 [kaleb@example.com](mailto:kalebmulugeta07@gmail.com)  
+📧 [kalebmulugeta07@gmail.com](mailto:kalebmulugeta07@gmail.com)  
 📍 San Francisco, CA  
 💼 Available for freelance work
 
