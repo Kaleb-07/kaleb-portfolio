@@ -6,6 +6,11 @@ Welcome to the personal portfolio of **Kaleb** — a passionate **Software Engin
 > Coming Soon – Placeholder assets used for preview purposes.
 
 ## 📁 Project Structure
+
+├── ndex.html # Main HTML structure
+├── styles.css # Complete styling including dark mode and animations
+├── script.js # JavaScript for interactions (not provided)
+├── assets/ # Placeholder for images, icons, and media
 ---
 ## 🛠️ Built With
 
