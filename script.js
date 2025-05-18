@@ -1,5 +1,6 @@
 // Wait for the DOM to be fully loaded
 document.addEventListener("DOMContentLoaded", () => {
+  
   // Variables
   const loader = document.querySelector(".loader-wrapper")
   const themeToggle = document.querySelector(".theme-toggle")
@@ -18,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const nextArrow = document.querySelector(".next-arrow")
   const cursorDot = document.querySelector(".cursor-dot")
   const cursorDotOutline = document.querySelector(".cursor-dot-outline")
-
+  
   // Typing animation variables
   const typingElement = document.querySelector(".typing")
   const phrases = ["Software Engineer", "Video Editor", "Graphic Designer"]
@@ -85,7 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function updateCursor(e) {
     const posX = e.clientX
     const posY = e.clientY
-
+    
     cursorDot.style.left = `${posX}px`
     cursorDot.style.top = `${posY}px`
     cursorDotOutline.style.left = `${posX}px`
