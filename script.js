@@ -364,8 +364,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       alert("Please fill in all fields correctly.")
     }
-  })
-
+  })  
   // Smooth scrolling for anchor links
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
@@ -381,7 +380,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     })
   })
-
   // Initialize testimonials
   showTestimonial(0)
 })
