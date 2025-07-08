@@ -1,26 +1,4 @@
-/* ===== VARIABLES ===== */
-:root {
-  /* Light Mode Colors */
-  --primary-color: #00b8a9;
-  --secondary-color: #0f4c75;
-  --accent-color: #f8615a;
-  --background-color: #ffffff;
-  --background-alt-color: #f8f9fa;
-  --text-color: #333333;
-  --text-light-color: #666666;
-  --border-color: #e0e0e0;
-  --shadow-color: rgba(0, 0, 0, 0.1);
 
-  /* Dark Mode Colors */
-  --dark-primary-color: #00b8a9;
-  --dark-secondary-color: #3282b8;
-  --dark-accent-color: #f8615a;
-  --dark-background-color: #121212;
-  --dark-background-alt-color: #1e1e1e;
-  --dark-text-color: #f0f0f0;
-  --dark-text-light-color: #b0b0b0;
-  --dark-border-color: #2d2d2d;
-  --dark-shadow-color: rgba(0, 0, 0, 0.3);
 
   /* Font */
   --font-family: "Poppins", sans-serif;
