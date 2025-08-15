@@ -1,6 +1,27 @@
+/* Font */
+  --font-family: "Poppins", sans-serif;
 
-
-  
+  /* Transitions */
+  --transition: all 0.3s ease;
+}
+/* ===== RESET & BASE STYLES ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  transition: background-color 0.5s ease, color 0.5s ease;
+  overflow-x: hidden;
+}
 
 body.dark-mode {
   color: var(--dark-text-color);
