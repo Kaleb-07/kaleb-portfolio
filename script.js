@@ -1,8 +1,11 @@
-// Wait for the DOM to be fully loaded
-document.addEventListener("DOMContentLoaded", () => {
-  
-  // Variables
-  const loader = document.querySelector(".loader-wrapper")
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="dales - Software Engineering Student, Video Editor, and Graphic Designer">
+    <meta name="keywords"
+
   const themeToggle = document.querySelector(".theme-toggle")
   const hamburger = document.querySelector(".hamburger")
   const navLinks = document.querySelector(".nav-links")
