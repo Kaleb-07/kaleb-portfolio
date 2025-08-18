@@ -1,5 +1,6 @@
-
-
+/* Font */
+  --font-family: "Poppins", sans-serif;
+
   /* Transitions */
   --transition: all 0.3s ease;
 }
