@@ -57,7 +57,7 @@ Welcome to the personal portfolio of **Kaleb** — a passionate **Software Engin
 ## 👨‍💻 Author
 
 **Kaleb**  
-📧 [daleseragoes07@gmail.com](mailto:kalebmulugeta07@gmail.com)  
+📧 [daleseragoes07@gmail.com](mailto@gmail.com)  
 📍 San Francisco, CA  
 💼 Available for freelance work
 
