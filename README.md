@@ -3,19 +3,6 @@
 /* Font */
   --font-family: "Poppins", sans-serif;
 
-  /* Transitions */
-  --transition: all 0.3s ease;
-}
-/* ===== RESET & BASE STYLES ===== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  scroll-behavior: smooth;
-}
-
 
 Welcome to the personal portfolio of **Kaleb** — a passionate **Software Engineering Student**, **Video Editor**, and **Graphic Designer**. This portfolio highlights Kaleb’s skills, projects, testimonials, and contact information, all in a clean, modern responsive design with light/dark mode support.
 
