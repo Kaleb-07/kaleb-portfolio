@@ -1,4 +1,4 @@
-9# Kaleb's Portfolio Website
+#Portfolio Website
 Welcome to the personal portfolio of **Kaleb** — a passionate **Software Engineering Student**, **Video Editor**, and **Graphic Designer**. This portfolio highlights Kaleb’s skills, projects, testimonials, and contact information, all in a clean, modern responsive design with light/dark mode support.
 
 ## 🌐 Live Demo
