@@ -1,23 +1,30 @@
-#Portfolio Website
-Welcome to the personal portfolio of **Kaleb** — a passionate **Software Engineering Student**, **Video Editor**, and **Graphic Designer**. This portfolio highlights Kaleb’s skills, projects, testimonials, and contact information, all in a clean, modern responsive design with light/dark mode support.
+# 🌟 Portfolio Website
+
+Welcome to the personal portfolio of **Kaleb** — a passionate **Software Engineering Student**, **Video Editor**, and **Graphic Designer**.  
+This website showcases my **skills, projects, testimonials, and contact information** in a clean, modern, and fully responsive design with **light/dark mode support**.
+
+---
 
 ## 🌐 Live Demo
-> Coming Soon – Placeholder assets used for preview purposes.
+> 🚧 Coming Soon — currently using placeholder assets for preview.
 
-## 📁 Project Structure
+---
 
-├── ndex.html # Main HTML structure
-├── styles.css # Complete styling including dark mode and animations
-├── script.js # JavaScript for interactions (not provided)
-├── assets/ # Placeholder for images, icons, and media
+## 📂 Project Structure
+
+├── index.html # Main HTML structure
+├── styles.css # Complete styling (dark mode, animations, responsiveness)
+├── script.js # JavaScript for interactions & UI logic
+├── assets/ # Images, icons, and media files
 ---
 ## 🛠️ Built With
 
 - **HTML5**
-- **CSS3** (Flexbox, Grid, Variables, Transitions)
-- **Responsive Design** (Media Queries)
+- **CSS3** (Flexbox, Grid, Variables, Transitions, Animations)
+- **JavaScript (ES6+)**
+- **Responsive Design** (Mobile-first, Media Queries)
 - **Dark Mode Support**
-- **Font Awesome** Icons
+- **Font Awesome** (icons)
 - **Google Fonts (Poppins)**
 
 ---
@@ -39,11 +46,15 @@ Welcome to the personal portfolio of **Kaleb** — a passionate **Software Engin
 ## 👨‍💻 Author
 
 **Kaleb**  
-📧 [daleseragoes07@gmail.com](mailto@gmail.com)  
+📧 [daleseragoes07@gmail.com](mailto:daleseragoes07@gmail.com)  
 📍 San Francisco, CA  
-💼 Available for freelance work
+💼 Open to freelance and collaboration opportunities  
 
 ---
+
 ## ⭐️ Feedback & Support
-If you found this project helpful, please give it a ⭐️!  
+If you like this project, please consider giving it a ⭐️ on GitHub!  
+Contributions, suggestions, and issues are always 
 Feel free to create issues or pull requests with ideas and improvements.
+ 
+ welcome 🙌
