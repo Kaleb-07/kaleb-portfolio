@@ -1,9 +1,31 @@
-/* Font */
+:root {
+  /* Colors - Light Mode */
+  --primary-color: #00b8a9;
+  --secondary-color: #ff6f61;
+  --background-color: #ffffff;
+  --background-alt-color: #f9f9f9;
+  --text-color: #333333;
+  --text-light-color: #666666;
+  --border-color: #dddddd;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+
+  /* Colors - Dark Mode */
+  --dark-primary-color: #00d4b2;
+  --dark-secondary-color: #ff8574;
+  --dark-background-color: #121212;
+  --dark-background-alt-color: #1e1e1e;
+  --dark-text-color: #f5f5f5;
+  --dark-text-light-color: #cccccc;
+  --dark-border-color: #333333;
+  --dark-shadow-color: rgba(0, 0, 0, 0.6);
+
+  /* Font */
   --font-family: "Poppins", sans-serif;
-
+
   /* Transitions */
   --transition: all 0.3s ease;
 }
+
 /* ===== RESET & BASE STYLES ===== */
 * {
   margin: 0;
