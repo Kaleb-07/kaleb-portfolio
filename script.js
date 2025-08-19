@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   
   // Variables
-  const loader = document.querySelector(".loader-wrapper"
+  const loader = document.querySelector(".loader-wrapper")
   const themeToggle = document.querySelector(".theme-toggle")
   const hamburger = document.querySelector(".hamburger")
   const navLinks = document.querySelector(".nav-links")
@@ -47,11 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Set typing speed based on current state
     const currentText = phrases[phraseIndex]
 
-    if (isDeleting) {
-      typingSpeed = 50 // Faster when deleting
-    } else {
-      typingSpeed = 100 // Normal speed when typing
-    }
+    typingSpeed = isDeleting ? 50 : 100;
 
     // If in deleting state, remove last character
     if (isDeleting && currentPhrase.length > 0) {
@@ -135,6 +131,11 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       localStorage.setItem("theme", "light")
     }
+    // optionally
+    //       localStorage.setItem(
+    //   "theme",
+    //   document.body.classList.contains("dark-mode") ? "dark" : "light"
+    // );
   })
 
   // Mobile menu toggle
