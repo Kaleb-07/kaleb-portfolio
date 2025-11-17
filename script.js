@@ -73,4 +73,23 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(typingAnimation, typingSpeed);
     isEnd = false;
   }
+    // Custom Cursor
+  //------------------------------
+  if (cursorDot && cursorDotOutline && window.innerWidth > 768) {
+    document.addEventListener("mousemove", (e) => {
+      const { clientX: x, clientY: y } = e;
+
+      cursorDot.style.cssText = `left:${x}px; top:${y}px; opacity:1`;
+      cursorDotOutline.style.cssText = `left:${x}px; top:${y}px; opacity:1`;
+    });
+
+    const interactiveElements = $$(
+      "a, button, .btn, .project-item, .filter-btn, .theme-toggle, .hamburger, .floating-btn, .scroll-top, input, textarea"
+    );
+
+    interactiveElements.forEach((el) => {
+      el.addEventListener("mouseenter", () => document.body.classList.add("cursor-hover"));
+      el.addEventListener("mouseleave", () => document.body.classList.remove("cursor-hover"));
+    });
+  }
 })
