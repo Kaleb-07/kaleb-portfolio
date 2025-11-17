@@ -32,6 +32,15 @@ document.addEventListener("DOMContentLoaded", () => {
   let isDeleting = false;
   let isEnd = false;
   let typingSpeed = 100;
+    // Loader
+  //------------------------------
+  window.addEventListener("load", () => {
+    if (!loader) return;
+    setTimeout(() => {
+      loader.classList.add("hidden");
+      setTimeout(() => typingAnimation(), 500);
+    }, 1200);
+  });
 
 }
   // Typing animation variables
@@ -400,4 +409,5 @@ document.addEventListener("DOMContentLoaded", () => {
   showTestimonial(0)
 
 })
+
 
