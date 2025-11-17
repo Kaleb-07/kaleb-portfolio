@@ -23,7 +23,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const nextArrow = $(".next-arrow");
   const cursorDot = $(".cursor-dot");
   const cursorDotOutline = $(".cursor-dot-outline");
-  const typingEleme
+  const typingElement = $(".typing");
+  
+    // ⏳ Typing animation variables
+  const phrases = ["Software Engineer", "Video Editor", "Graphic Designer"];
+  let phraseIndex = 0;
+  const currentPhrase = [];
+  let isDeleting = false;
+  let isEnd = false;
+  let typingSpeed = 100;
+
 }
   // Typing animation variables
   const typingElement = document.querySelector(".typing")
@@ -391,3 +400,4 @@ document.addEventListener("DOMContentLoaded", () => {
   showTestimonial(0)
 
 })
+
