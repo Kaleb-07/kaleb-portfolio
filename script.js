@@ -92,4 +92,17 @@ document.addEventListener("DOMContentLoaded", () => {
       el.addEventListener("mouseleave", () => document.body.classList.remove("cursor-hover"));
     });
   }
+    // Theme Toggle
+  //------------------------------
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "light") document.body.classList.remove("dark-mode");
+
+  themeToggle?.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+    localStorage.setItem(
+      "theme",
+      document.body.classList.contains("dark-mode") ? "dark" : "light"
+    );
+  });
+
 })
