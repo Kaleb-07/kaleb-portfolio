@@ -1,25 +1,31 @@
 // Wait for the DOM to be fully loaded
 document.addEventListener("DOMContentLoaded", () => {
   
+  // Safer DOM selector function
+  const $ = (selector) => document.querySelector(selector);
+  const $$ = (selector) => document.querySelectorAll(selector);
+
   // Variables
-  const loader = document.querySelector(".loader-wrapper")
-  const themeToggle = document.querySelector(".theme-toggle")
-  const hamburger = document.querySelector(".hamburger")
-  const navLinks = document.querySelector(".nav-links")
-  const navItems = document.querySelectorAll(".nav-links a")
-  const scrollTopBtn = document.querySelector(".scroll-top")
-  const skillBars = document.querySelectorAll(".skill-progress")
-  const filterBtns = document.querySelectorAll(".filter-btn")
-  const projectItems = document.querySelectorAll(".project-item")
-  const contactForm = document.getElementById("contactForm")
-  const floatingBtn = document.querySelector(".floating-btn")
-  const testimonialItems = document.querySelectorAll(".testimonial-item")
-  const testimonialDots = document.querySelectorAll(".dot")
-  const prevArrow = document.querySelector(".prev-arrow")
-  const nextArrow = document.querySelector(".next-arrow")
-  const cursorDot = document.querySelector(".cursor-dot")
-  const cursorDotOutline = document.querySelector(".cursor-dot-outline")
+  const loader = $(".loader-wrapper");
+  const themeToggle = $(".theme-toggle");
+  const hamburger = $(".hamburger");
+  const navLinks = $(".nav-links");
+  const navItems = $$(".nav-links a");
+  const scrollTopBtn = $(".scroll-top");
+  const skillBars = $$(".skill-progress");
+  const filterBtns = $$(".filter-btn");
+  const projectItems = $$(".project-item");
+  const contactForm = $("#contactForm");
+  const floatingBtn = $(".floating-btn");
+  const testimonialItems = $$(".testimonial-item");
+  const testimonialDots = $$(".dot");
+  const prevArrow = $(".prev-arrow");
+  const nextArrow = $(".next-arrow");
+  const cursorDot = $(".cursor-dot");
+  const cursorDotOutline = $(".cursor-dot-outline");
+  const typingElement = $(".typing");
   
+}
   // Typing animation variables
   const typingElement = document.querySelector(".typing")
   const phrases = ["Software Engineer", "Video Editor", "Graphic Designer"]
