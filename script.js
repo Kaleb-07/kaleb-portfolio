@@ -102,7 +102,20 @@ document.addEventListener("DOMContentLoaded", () => {
       document.body.classList.contains("dark-mode") ? "dark" : "light"
     );
   });
+    // Mobile Menu
+  //------------------------------
+  hamburger?.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navLinks.classList.toggle("active");
+  });
+
+  navItems.forEach((item) =>
+    item.addEventListener("click", () => {
+      hamburger.classList.remove("active");
+      navLinks.classList.remove("active");
+
+      navItems.forEach((nav) => nav.classList.remove("active"));
+      item.classList.add("active");
+    })
+  );
 }
-                          
-
-
