@@ -43,4 +43,34 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 1200);
   });
 
+    // Typing Animation
+  //------------------------------
+  function typingAnimation() {
+    if (!typingElement) return;
+
+    const currentText = phrases[phraseIndex];
+    typingSpeed = isDeleting ? 60 : 100;
+
+    if (isDeleting && currentPhrase.length > 0) {
+      currentPhrase.pop();
+    } else if (!isDeleting && currentPhrase.length < currentText.length) {
+      currentPhrase.push(currentText[currentPhrase.length]);
+    }
+
+    typingElement.textContent = currentPhrase.join("");
+
+    if (!isDeleting && currentPhrase.length === currentText.length) {
+      isEnd = true;
+      isDeleting = true;
+      typingSpeed = 1200; 
+    }
+
+    if (isDeleting && currentPhrase.length === 0) {
+      isDeleting = false;
+      phraseIndex = (phraseIndex + 1) % phrases.length;
+    }
+
+    setTimeout(typingAnimation, typingSpeed);
+    isEnd = false;
+  }
 })
