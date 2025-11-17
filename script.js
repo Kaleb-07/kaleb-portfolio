@@ -118,4 +118,52 @@ document.addEventListener("DOMContentLoaded", () => {
       item.classList.add("active");
     })
   );
+   // Testimonials Slider
+  //------------------------------
+  let currentTestimonial = 0;
+
+  function showTestimonial(i) {
+    testimonialItems.forEach((t) => t.classList.remove("active"));
+    testimonialDots.forEach((d) => d.classList.remove("active"));
+
+    testimonialItems[i].classList.add("active");
+    testimonialDots[i].classList.add("active");
+    currentTestimonial = i;
+  }
+
+  function nextTestimonial() {
+    showTestimonial((currentTestimonial + 1) % testimonialItems.length);
+  }
+
+  function prevTestimonial() {
+    showTestimonial(
+      (currentTestimonial - 1 + testimonialItems.length) % testimonialItems.length
+    );
+  }
+
+  let testimonialInterval = setInterval(nextTestimonial, 5000);
+
+  nextArrow?.addEventListener("click", () => {
+    clearInterval(testimonialInterval);
+    nextTestimonial();
+    testimonialInterval = setInterval(nextTestimonial, 5000);
+  });
+
+  prevArrow?.addEventListener("click", () => {
+    clearInterval(testimonialInterval);
+    prevTestimonial();
+    testimonialInterval = setInterval(nextTestimonial, 5000);
+  });
+
+  testimonialDots.forEach((dot, i) =>
+    dot.addEventListener("click", () => {
+      clearInterval(testimonialInterval);
+      showTestimonial(i);
+      testimonialInterval = setInterval(nextTestimonial, 5000);
+    })
+  );
+
+  showTestimonial(0);
+})
 }
+
