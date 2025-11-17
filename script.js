@@ -24,17 +24,17 @@ document.addEventListener("DOMContentLoaded", () => {
   const cursorDot = $(".cursor-dot");
   const cursorDotOutline = $(".cursor-dot-outline");
   const typingElement = $(".typing");
-  
+
+    // ⏳ Typing animation variables
+  const phrases = ["Software Engineer", "Video Editor", "Graphic Designer"];
+  let phraseIndex = 0;
+  const currentPhrase = [];
+  let isDeleting = false;
+  let isEnd = false;
+  let typingSpeed = 100;
+
 }
-  // Typing animation variables
-  const typingElement = document.querySelector(".typing")
-  const phrases = ["Software Engineer", "Video Editor", "Graphic Designer"]
-  let phraseIndex = 0
-  const letterIndex = 0
-  const currentPhrase = []
-  let isDeleting = false
-  let isEnd = false
-  let typingSpeed = 100
+
 
   // Hide loader after page is loaded
   window.addEventListener("load", () => {
