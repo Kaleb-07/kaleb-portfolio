@@ -7,13 +7,12 @@ This website showcases my skills, projects, testimonials, and contact informatio
 > 🚧 Coming Soon — currently using placeholder assets for preview.
 
 📂 Project Structure
-
  :-index.html # Main HTML structure
  :-styles.css # Complete styling (dark mode, animations, responsiveness)
  :-script.js # JavaScript for interactions & UI logic
  :-assets/ # Images, icons, and media files
+ 
 🛠️ Built With
-
 - **HTML5**
 - **CSS3** (Flexbox, Grid, Variables, Transitions, Animations)
 - **JavaScript (ES6+)**
@@ -23,7 +22,6 @@ This website showcases my skills, projects, testimonials, and contact informatio
 - **Google Fonts (Poppins)**
 
 ✨ Features
-
 - **Smooth Scroll Navigation**
 - **Dark/Light Mode Toggle**
 - **Animated Loader Screen**
@@ -35,7 +33,6 @@ This website showcases my skills, projects, testimonials, and contact informatio
 - **Responsive Contact Form**
 
 👨‍💻 Author
-
 **Kaleb**  
 📧 [daleseragoes07@gmail.com](mailto:daleseragoes07@gmail.com)  
 📍 AddisAbeba, ETH  
