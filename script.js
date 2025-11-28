@@ -33,7 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
   let isEnd = false;
   let typingSpeed = 100;
     // Loader
-  //------------------------------
   window.addEventListener("load", () => {
     if (!loader) return;
     setTimeout(() => {
@@ -42,7 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 1200);
   });
     // Typing Animation
-  //------------------------------
   function typingAnimation() {
     if (!typingElement) return;
 
@@ -72,7 +70,6 @@ document.addEventListener("DOMContentLoaded", () => {
     isEnd = false;
   }
       // Custom Cursor
-  //------------------------------
   if (cursorDot && cursorDotOutline && window.innerWidth > 768) {
     document.addEventListener("mousemove", (e) => {
       const { clientX: x, clientY: y } = e;
@@ -91,7 +88,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
       // Theme Toggle
-  //------------------------------
   const savedTheme = localStorage.getItem("theme");
   if (savedTheme === "light") document.body.classList.remove("dark-mode");
 
@@ -103,7 +99,6 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   });
     // Mobile Menu
-  //------------------------------
   hamburger?.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     navLinks.classList.toggle("active");
@@ -119,7 +114,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   );
    // Testimonials Slider
-  //------------------------------
   let currentTestimonial = 0;
 
   function showTestimonial(i) {
@@ -166,4 +160,5 @@ document.addEventListener("DOMContentLoaded", () => {
   showTestimonial(0);
 })
 }
+
 
