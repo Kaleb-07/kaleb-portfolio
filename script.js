@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let isDeleting = false;
   let isEnd = false;
   let typingSpeed = 100;
+  
     // Loader
   window.addEventListener("load", () => {
     if (!loader) return;
@@ -40,6 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
       setTimeout(() => typingAnimation(), 500);
     }, 1200);
   });
+  
     // Typing Animation
   function typingAnimation() {
     if (!typingElement) return;
@@ -69,6 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(typingAnimation, typingSpeed);
     isEnd = false;
   }
+  
       // Custom Cursor
   if (cursorDot && cursorDotOutline && window.innerWidth > 768) {
     document.addEventListener("mousemove", (e) => {
@@ -87,6 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
       el.addEventListener("mouseleave", () => document.body.classList.remove("cursor-hover"));
     });
   }
+  
       // Theme Toggle
   const savedTheme = localStorage.getItem("theme");
   if (savedTheme === "light") document.body.classList.remove("dark-mode");
@@ -98,6 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
       document.body.classList.contains("dark-mode") ? "dark" : "light"
     );
   });
+  
     // Mobile Menu
   hamburger?.addEventListener("click", () => {
     hamburger.classList.toggle("active");
@@ -113,9 +118,10 @@ document.addEventListener("DOMContentLoaded", () => {
       item.classList.add("active");
     })
   );
+  
    // Testimonials Slider
   let currentTestimonial = 0;
-
+  
   function showTestimonial(i) {
     testimonialItems.forEach((t) => t.classList.remove("active"));
     testimonialDots.forEach((d) => d.classList.remove("active"));
@@ -160,5 +166,6 @@ document.addEventListener("DOMContentLoaded", () => {
   showTestimonial(0);
 })
 }
+
 
 
