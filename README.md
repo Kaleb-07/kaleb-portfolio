@@ -34,7 +34,7 @@ This website showcases my skills, projects, testimonials, and contact informatio
 
 👨‍💻 Author
 **Kaleb**  
-📧 [daleseragoes07@gmail.com](mailto:daleseragoes07@gmail.com)  
+📧 [mesafint007@gmail.com](mailto:mesafint007@gmail.com)  
 📍 AddisAbeba, ETH  
 💼 Open to freelance and collaboration opportunities  
 
